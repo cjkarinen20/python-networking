@@ -2,7 +2,6 @@ import socket
 
 
 # Server setup
-
 s_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s_socket.bind(('localhost', 6789))
 s_socket.listen(5) # Listen for incoming connections (max of 5)
